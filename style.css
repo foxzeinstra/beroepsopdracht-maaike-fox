@@ -49,11 +49,36 @@ nav > ul > li > a{
     text-align: center;
     line-height: 60px;
 }
-
-img{
-    width: 600px;
-    border-radius: 5px;
-    margin: 0 auto;
+article{
+    width: 30vw;
+    margin:0 auto;
 }
 
- 
+img{
+    width: 95%;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.2s transform;
+    float:left; 
+}
+
+
+img:hover{
+    transform: scale(1.05);
+}
+
+section{
+    width: 30vw;
+    background-color: #5d5d5d;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+}
+h2{
+    font-size: 100px;    
+}
+p{
+    font-size: 40px;
+    margin: 15px;
+
+}
