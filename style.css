@@ -50,6 +50,10 @@ nav > ul > li > a{
     text-align: center;
     line-height: 60px;
 }
+.header-img{
+    width: 40vw;
+    float: right;
+}
 article{
     width: 30vw;
     margin:0 auto;
@@ -60,7 +64,7 @@ img{
     border-radius: 5px;
     margin: 10px;
     transition: 0.2s transform;
-    float:left; 
+    /* float:left;  */
 }
 
 
@@ -76,21 +80,89 @@ section{
     color: white;
     font-size: medium;
     display: block;
+    size: 50vw;
 }
-
 h2{
   font-size: 60px
         
 }
-
-section > h2 > p{
+p{
     font-size: 30px;
     margin: 15px;
+    font-style: oblique;
 }
 
-article{
+
+
+div{
     background-color: #5d5d5d;
+    padding: 15px;
+    color: white;
+    display: block;
+    width: 30vw;
+    margin: 15px
+}
+
+div > h1{
+    font-size: 30px;
+    font-style: oblique;
+}
+
+div > h2{
+    font-size: 20px;
+    font-style: italic;
+}
+
+div > p{
+    font-size: 20px;
+}
+
+
+
+footer{
+    background-color: #5d5d5d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+footer > p{
     padding: 10px;
-    margin: 15px;
-    color whit
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+@media  screen and (max-width: 1000px) {
+    article{
+       width: 80vw;
+     }
+     footer > p{
+        width: 80vw;
+     }
+     img:hover{
+        transform: none;
+     }
+    
+}
+
+@media screen and (max-width: 600px){
+    body{ 
+        font-size: 16px;
+    }
+    article{
+        width: 100vw;
+        padding: 20px;
+      }
+      h1{
+        font-size: 180%;
+      }
+      footer > p{
+        font-size: 100vw;
+        padding-left: 20px;
+      }
+      
 }
