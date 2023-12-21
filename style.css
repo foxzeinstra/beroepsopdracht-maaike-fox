@@ -11,6 +11,7 @@ header{
     color: white;
     height: 60px;
     border-radius: 40px;
+    margin: 10px
 }
 
 nav{
@@ -73,12 +74,23 @@ section{
     padding: 15px;
     margin: 15px;
     color: white;
+    font-size: medium;
+    display: block;
 }
-h2{
-    font-size: 100px;    
-}
-p{
-    font-size: 40px;
-    margin: 15px;
 
+h2{
+  font-size: 60px
+        
+}
+
+section > h2 > p{
+    font-size: 30px;
+    margin: 15px;
+}
+
+article{
+    background-color: #5d5d5d;
+    padding: 10px;
+    margin: 15px;
+    color whit
 }
