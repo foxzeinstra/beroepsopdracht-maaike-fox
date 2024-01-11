@@ -145,6 +145,37 @@ h1{
     size: 30vw;
 }
 
+.body{
+    background-image: url(img/foto\ 2.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.Nu{
+   color: white;
+   font-size: 20px;
+   font-style: oblique;
+}
+
+.kunst{
+ font-size: 22px;
+ font-style: oblique;
+}
+
+.kunstenaars{
+    font-size: 22px;
+ font-style: oblique;
+}
+
+.kunsten{
+    background-image: url(img/IMG_5855.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+
 footer{
     background-color: #5d5d5d;
     height: 40px;
