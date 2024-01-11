@@ -38,6 +38,10 @@ nav > ul > li{
     align-items: center;
 }
 
+.active{
+    background: gray;
+}
+
 li:hover{
  cursor: pointer;
 }
@@ -60,10 +64,13 @@ article{
 }
 
 img{
-    width: 95%;
+    width: 85px;
     border-radius: 5px;
     margin: 10px;
+    height: 400px;
+    display: block;
     transition: 0.2s transform;
+
     /* float:left;  */
 }
 
@@ -115,7 +122,28 @@ div > p{
     font-size: 20px;
 }
 
+.foto{
+    background-image: url(img/foto4.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
 
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+.overons{
+    width: 30vw;
+    background-color: #5d5d5d;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+    display: block;
+    size: 30vw;
+}
 
 footer{
     background-color: #5d5d5d;
@@ -125,14 +153,12 @@ footer{
     color: white;
 
 }
+
 footer > p{
     padding: 10px;
     font-size: 20px;
     font-style: italic;
 }
-
-
-
 
 @media  screen and (max-width: 1000px) {
     article{
