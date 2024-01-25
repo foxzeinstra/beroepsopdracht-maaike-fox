@@ -54,10 +54,21 @@ nav > ul > li > a{
     text-align: center;
     line-height: 60px;
 }
+button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 100%;
+}
 .header-img{
     width: 40vw;
     float: right;
 }
+
+input{
+  
+}
+
 article{
     width: 30vw;
     margin:0 auto;
@@ -191,6 +202,37 @@ footer > p{
     padding: 10px;
     font-size: 20px;
     font-style: italic;
+}
+
+.mainNavigation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0,8s all;
+}
+
+.mainNavigationList{
+  list-style: none;
+}
+
+.mainNavigationListItem{
+   color: white;
+   font-size: 350%;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.mainNavigationListItem > a{
+    text-decoration: none;
+    color:white;
 }
 
 @media  screen and (max-width: 1000px) {
